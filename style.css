@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC0CB; /* Pastel Pink */
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #001F3F; /* Navy Blue */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #001F3F; /* Navy Blue */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #009688; /* Soft Teal on hover */
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.skills-list, .certificate-list, .projects-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li, .certificate-list li, .projects-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.skills-list li:hover, .certificate-list li:hover, .projects-list li:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.button {
+    background-color: #009688; /* Soft Teal */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make it act like a block element */
+    transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+.button:hover {
+    background-color: #00796B; /* Darker Teal on hover */
+}
+
+footer {
+    background-color: #001F3F; /* Navy Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #009688; /* Soft Teal */
+    text-decoration: none;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #111;
+}
+
+body.dark-mode .section {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode nav ul {
+    background-color: #444;
+}
+
+body.dark-mode nav ul li a {
+    color: #fff;
+}
+
+body.dark-mode footer {
+    background-color: #111;
+}
+
+/* Toggle Button */
+.toggle-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #009688; /* Soft Teal */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #00796B; /* Darker Teal */
+}
